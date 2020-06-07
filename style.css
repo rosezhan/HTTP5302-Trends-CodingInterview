@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&display=swap');
+
+
+h1 {
+    margin-left:1em;
+    font-family:"Noto Serif JP", serif;
+}
+
+#search {
+    margin-bottom:1em;
+    font-family: "Open Sans", sans-serif;
+}
+
+.flexContainer {
+    display:flex;
+}
+
+.teamMembers {
+    width:350px;
+    height:600px;
+    border:1px solid #000;
+    font-family:"Open Sans", sans-serif;
+    font-size:14px;
+    margin-left:1em;
+    position:relative;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+#memberImages {
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+#teamPhotos {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+
+#teamNames {
+    width:auto;
+    height:auto;
+    font-family:"Noto Serif JP", serif;
+    position:absolute;
+    top:35%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+#teamBios {
+    width:300px;
+    height:auto;
+    position:absolute;
+    top:65%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+#teamFeatured {
+    width:25px;
+    height:25px;
+    position:absolute;
+    top:2%;
+    left:87%;
+}
+
+.rolesBox {
+    margin-bottom:1em;
+}
+
+.teamRoles {
+    width:auto;
+    height:auto;
+    display:inline-block; 
+    margin-top:3em;
+    margin-right:5px;
+}
